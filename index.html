@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit Quiry</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="contactus">
+        <h1>Form Validation</h1>
+        <form action=""onsubmit="return validateform()">
+        <div class="contctcontent">
+            <div class="user">
+            <input type="text" class="input" id="username" placeholder="ENTER YOUR NAME*"> 
+            <p id="nameerror" class="error"></p>
+        </div>
+        <div class="user">
+            <input type="text" for="email" class="input" id="usermail" placeholder="ENTER YOUR EMAIL*">
+            <p id="mailerror" class="error"></p>
+        </div>
+            </div>
+    <div class="contctcontent">
+        <div class="user">
+            <input type="text" class="input" id="userphone" placeholder="PHONE NUMBER*">
+            <p id="phoneerror" class="error"></p>
+        </div>
+        <div class="user">
+            <input type="text" class="input" id="usermessage" placeholder="YOUR MESSAGE*" class="message">
+            <p id="messageerror" class="error"></p>
+        </div>
+        </div>
+        <button class="contactcontentbutton">Submit</button>
+    </form>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

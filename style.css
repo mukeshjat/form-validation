@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    padding: 5% 10%;
+}
+p{
+    color: red;
+    font-size: 18px;
+}
+.contactus{
+    padding: 5% 12%;
+    text-align: center;
+    background: #e7e5e5;
+  }
+  .input{
+    width: 80%;
+    margin: 2% 0;
+    padding: 3% 0 3% 4%;
+    border: 0;
+    border-bottom: 3px solid;
+    border-left: 3px solid;
+    font-weight: bold;
+    background: #e7e5e5;
+  }
+  .contactcontentbutton{
+    width: 30%;
+    margin-top: 5%;
+    border: 0;
+    border: 3px solid;
+    padding: 2% 0;
+    font-size: 16px;
+    background-color: inherit;
+    cursor: pointer;
+  }
